@@ -1,0 +1,33 @@
+{
+  "name": "feemanager",
+  "version": "0.3.0",
+  "description": "Simple reusable fee collection method",
+  "author": "Harbour",
+  "contributors": [
+    "Dean Eigenmann <dean@tokenate.io>"
+  ],
+  "license": "GPL-3.0",
+  "scripts": {
+    "report": "truffle test --report",
+    "lint": "solium --dir ./contracts"
+  },
+  "files": [
+    "contracts/",
+    "truffle.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarbourProject/feemanager.git"
+  },
+  "devDependencies": {
+    "solium": "^1.0.4",
+    "truffle": "^4.0.0",
+    "eth-gas-reporter": "^0.0.12"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts"
+  ]
+}
