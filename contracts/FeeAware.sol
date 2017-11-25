@@ -6,11 +6,11 @@ contract FeeAware {
 
     FeeManagerInterface public feeManager;
 
-    modifier handleFee(bytes4 signature) {
-        require(hasProvidedRequiredFee(signature));
+    modifier handleFee() {
+        require(hasProvidedRequiredFee(msg.sig));
 
-        moveFeeToVault(signature);
-        refundExcessFee(signature);
+        moveFeeToVault(msg.sig);
+        refundExcessFee(msg.sig);
 
         _;
     }
