@@ -1,5 +1,7 @@
 # Fee Manager
 
+[![Build Status](https://travis-ci.org/HarbourProject/feemanager.svg?branch=development)](https://travis-ci.org/HarbourProject/feemanager) [![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
+
 Simple system for easily charging fees with the allowance for either ERC20 tokens or ETH.
 
 **Smart contracts are experimental**
