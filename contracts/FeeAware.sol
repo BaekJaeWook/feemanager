@@ -15,7 +15,7 @@ contract FeeAware {
         _;
     }
 
-    function FeeAware(FeeManagerInterface _manager) {
+    function FeeAware(FeeManagerInterface _manager) public {
         feeManager = _manager;
     }
 
